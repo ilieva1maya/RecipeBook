@@ -68,6 +68,10 @@ footer {
     margin: 0 0 1em 0;
 }
 
+#footer .icons li {
+    list-style: none;
+}
+
 #footer .copyright {
     margin: 0 0 1em 0;
 }
