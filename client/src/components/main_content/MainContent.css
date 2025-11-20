@@ -1,0 +1,14 @@
+#main-content {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 120px); /* Adjust based on header and footer height */
+}
+
+@media screen and (max-width: 980px) {
+    #main-content {
+        margin-left: 0; 
+        margin-right: 0; 
+        min-height: auto; 
+    }
+}

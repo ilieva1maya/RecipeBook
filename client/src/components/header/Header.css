@@ -8,7 +8,7 @@
     left: 0;
     top: 0;
     position: fixed;
-    padding: 8em 4em;
+    padding: 2em;
     text-align: right;
     background-color: #1f1815;
     background-image: url("images/overlay.png"), url("../../images/bg.jpg");

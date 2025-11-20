@@ -66,19 +66,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-#main-content {
-    margin-left: 20%; 
-    margin-right: 5%; 
-    min-height: 100vh;
-    box-sizing: border-box; 
-    overflow-x: auto;
-}
-
-@media screen and (max-width: 980px) {
-    #main-content {
-        margin-left: 0; 
-        margin-right: 0; 
-        min-height: auto; 
-    }
-}

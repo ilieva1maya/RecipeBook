@@ -18,9 +18,6 @@ export default function Navigation() {
                     </li>
                 ))}
             </ul>
-            <ul className="actions vertical">
-                <li><a href="#" className="button fit">Get Cooking</a></li>
-            </ul>
         </nav>
     );
 }
