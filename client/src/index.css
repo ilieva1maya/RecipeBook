@@ -23,9 +23,9 @@ a:hover {
 }
 
 body {
+  display: block;
   margin: 0;
-  display: flex;
-  place-items: center;
+  overflow-x: auto; 
   min-width: 320px;
   min-height: 100vh;
 }
@@ -72,6 +72,7 @@ button:focus-visible {
     margin-right: 5%; 
     min-height: 100vh;
     box-sizing: border-box; 
+    overflow-x: auto;
 }
 
 @media screen and (max-width: 980px) {

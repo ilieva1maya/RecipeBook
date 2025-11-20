@@ -17,6 +17,8 @@
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
     color: rgba(255, 255, 255, 0.5);
+    overflow-y: auto;
+    align-items: flex-start;
 }
 
 #header > * {
@@ -91,5 +93,5 @@ body.is-touch #header {
 }
 
 @media screen and (max-width: 480px) {
-    #header { padding: 4.5em 1.5em; }
+    #header { padding: 2em 1em; }
 }

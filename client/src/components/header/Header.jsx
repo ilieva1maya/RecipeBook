@@ -1,3 +1,4 @@
+import Navigation from "../navigation/Navigation";
 import "./Header.css";
 
 export default function Header() {
@@ -8,6 +9,7 @@ export default function Header() {
 				<h1><strong>M-m-m yummy, </strong><br />
 					for my tummy!<br />
 					<em>crafted by <a href="https://github.com/ilieva1maya">Maya</a>.</em></h1>
+					<Navigation />
 			</div>
 		</header>
 	)
