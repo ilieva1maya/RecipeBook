@@ -2,13 +2,16 @@
     font-family: 'Source Sans Pro', sans-serif;
     padding: 20px;
     background-color: #f9f9f9;
-    min-height: calc(100vh - 120px); /* Adjust based on header and footer height */
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: 100vh;
+    min-width: 0;
 }
 
 @media screen and (max-width: 980px) {
     #main-content {
-        margin-left: 0; 
-        margin-right: 0; 
-        min-height: auto; 
+        margin-left: 0;
+        margin-right: 0;
+        min-height: auto;
     }
 }
