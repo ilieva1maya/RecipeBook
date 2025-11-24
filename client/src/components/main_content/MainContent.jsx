@@ -5,7 +5,7 @@ const recipes = [
         id: 1,
         title: "Classic Pancakes",
         description: "Fluffy and light, perfect for a lazy Sunday morning. Ready in under 15 minutes!",
-        image: "images/pancakes.jpeg", // Replace with your actual image path
+        image: "images/pancakes.jpeg",
         prepTime: "10 min",
         servings: 4,
     },
@@ -13,7 +13,7 @@ const recipes = [
         id: 2,
         title: "Spicy Black Bean Soup",
         description: "A hearty, nutritious, and easy-to-make soup with a subtle kick of chipotle. Great for meal prep.",
-        image: "images/black_bean.jpeg", // Replace with your actual image path
+        image: "images/black_bean.jpeg",
         prepTime: "45 min",
         servings: 6,
     },
@@ -21,7 +21,7 @@ const recipes = [
         id: 3,
         title: "Lemon Garlic Shrimp Scampi",
         description: "Elegant and flavorful—shrimp sautéed in a bright lemon-garlic butter sauce, served over linguine.",
-        image: "images/shrimp.jpeg", // Replace with your actual image path
+        image: "images/shrimp.jpeg",
         prepTime: "25 min",
         servings: 2,
     },
